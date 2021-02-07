@@ -1,0 +1,167 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Álvaro}{Fernández}{\\[3pt]\mbox{Fernández}}
+\title{PhD en Telemática}                               % optional, remove / comment the line if not wanted
+\address{C. de San Raimundo 11, 3º 7ª}{28039 Madrid, España}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{(+34)~644~72~86~19}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{fernandez.f.alvaro@gmail.com}                               % optional, remove / comment the line if not wanted
+\homepage{www.linkedin.com/in/fernandezfalvaro}
+\extrainfo{\href{https://github.com/alvarof2}{https://github.com/alvarof2}}                         % optional, remove / comment the line if not wanted
+% GS: https://scholar.google.es/citations?user=XmBZ_y8AAAAJ&hl=en&oi=sra
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0pt]{../../../Images/Photo}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+% á é í ó ú Á É Í Ó Ú ñ
+
+\section{Experiencia}
+\cventry{2018--Presente}{DevOps e Ingeniero de Software}{StratioBD}{Madrid, España}{}{Desarrollador del core backend de Stratio (PaaS basado en DC/OS). Usando herramientas como Docker o Ansible, automatizo el despliegue y operaci\'on de tecnolog\'ias como DC/OS (Mesos), Vault, Etcd, Zookeeper, Consul, Prometheus o Grafana. Tambi\'en desarrollo scripts/programas en Bash, Python y en menor medida Go.}
+\cventry{2017--2018}{T\'ecnico de Soporte}{StratioBD}{Madrid, España}{}{Soporte de n\'ivel 2 a sistemas y operaciones, administraci\'on de cl\'usteres (recursos e infraestructura) y configuraci\'on de sistemas de monitorizaci\'on. Automatizaci\'on de despliegue de software y administraci\'on de su configuraci\'on usando Ansible y scripts de Bash.}
+\cventry{2012--2016}{Asistente de docencia}{Norwegian University of Science and Technology (NTNU)}{Trondheim, Noruega}{}{Durante mi estancia en la NTNU, asist\'i en la docencia de diversos cursos:
+\begin{itemize}
+\item{Communications - Services and Networks: Protocolos y capas de red. Coordinador del equipo de 10 asistentes. (2014--2016)}
+%\cvlistitem{Communications - Services and Networks: Protocolos y capas de red. Coordinador del equipo de 10 asistentes. Responsable de cursos introductorios de Python y Wireshark. (2014--2016)}
+\item{Design of Reactive Systems 2: Diseño de software e introducción al Internet de las Cosas (IoT). Trabajo práctico con Raspberry Pis.  (2012--2016)} %Curso piloto de enseñanza basada en equipos (team-based learning).
+\item{Traffic and Dependability - Laboratory in tools and methodology: Modelado y análisis estadístico de tráfico y fiabilidad en sistemas TIC. (2015)} %, escritura de informes técnicos
+%\cvlistitem{Traffic and Dependability - Laboratory in tools and methodology: Modelado y análisis de tráfico y fiabilidad en sistemas TIC. Análisis estadístico y presentación de datos. (2015)} %, escritura de informes técnicos
+\item{Access and Transport Networks: Arquitecturas y diseño de redes de acceso y transporte (cableadas e inalámbricas). (2013--2014)}
+\end{itemize}}
+
+\section{Educación}
+\cventry{2012--2017}{Doctor en Telem\'atica}{Norwegian University of Science and Technology (NTNU)}{Trondheim, Noruega}{}{Tesis doctoral:  \emph{Modelling and Analyzing Cost-Effective Dependability in Passive Optical Networks.}}  % arguments 3 to 6 can be left empty
+%\cvitem{\bfseries{N.B.}}{La defensa doctoral tendrá lugar el 28 de febrero de 2017.}
+\cventry{2006--2012}{Ingeniero de Telecomunicación}{Universidad de Valladolid (UVa)}{Valladolid, España}{}{Premio Extraordinario Fin de Carrera por la Universidad de Valladolid.}
+
+\section{Idiomas}
+\cvdoubleitem{Español}{Lengua materna}{Inglés}{Avanzado}
+%\cvdoubleitem{Noruego (Bokm\r{a}l)}{Básico (Norwegian for Foreigners, NTNU -- equiv. B1/B2)}{}{}
+%\cvitemwithcomment{Spanish}{Mother Tongue}{}
+%\cvitemwithcomment{English}{Advanced}{}
+%\cvitemwithcomment{Norwegian (Bokm\r{a}l)}{Basic}{Norwegian for Foreigners at NTNU, Level 2}
+
+\section{Tecnologías}
+\begin{cvcolumns}
+  \cvcolumn{}{\begin{itemize}\item Ansible\item DC/OS (Mesos)\item Vagrant\item Vault\item Kerberos\end{itemize}}
+  \cvcolumn{}{\begin{itemize}\item Etcd\item Consul\item confd\item Zookeeper\end{itemize}}
+  \cvcolumn{}{\begin{itemize}\item Prometheus\item Grafana\item Docker\item HAProxy\end{itemize}}
+\end{cvcolumns}
+
+\section{Software y lenguajes de programación}
+\cvdoubleitem{Programación:}{Python, Bash, Go (básico)}{Matemático:}{Wolfram Mathematica, Matlab}
+\cvdoubleitem{Otros:}{Git, \LaTeX}{}{}
+%{Github}{\href{https://github.com/alvarof2}{https://github.com/alvarof2}}
+
+%\section{Lenguajes de programación}
+%\begin{cvcolumns}
+%  \cvcolumn{}{\begin{itemize}\item Bash\item Mathematica\end{itemize}}
+%  \cvcolumn{}{\begin{itemize}\item Python\item Matlab\end{itemize}}
+%  \cvcolumn{}{\begin{itemize}\item Go\item Git\end{itemize}}
+%\end{cvcolumns}
+
+%\begin{cvcolumns}
+%  \cvcolumn{}{\begin{itemize}\item Bash\item Python\item Go\end{itemize}}
+%  \cvcolumn{}{\begin{itemize}\item SQL (MariaDB)\item Mathematica \item Matlab\end{itemize}}
+%  \cvcolumn{}{\begin{itemize}\item \LaTeX\item Eclipse \item Git\end{itemize}}
+%\end{cvcolumns}
+
+%\cvlistdoubleitem{Java}{Python}
+%\cvlistdoubleitem{Simula}{SQL (MariaDB)}
+%\cvlistdoubleitem{Mathematica}{Matlab}
+%\cvlistdoubleitem{\LaTeX}{Eclipse}
+%\cvlistdoubleitem{Git}{}
+
+\section{Cursos}
+%\cventry{2017}{Practical Predictive Analytics: Models and Methods}{University of Washington (UW) en Coursera}{}{}{}
+%Diseño de experimentos estadísticos, introducción a métodos de aprendizaje supervisado y no supervisado.} 
+%(decision trees, random forests) (K-means, DBSCAN)
+\cventry{2017}{Big Data Foundations - Level 2}{Big Data University por IBM}{}{}{} 
+%{Conocimientos básicos de Big Data, Hadoop y Spark.}
+\cventry{2017}{Hadoop Foundations - Level 1}{Big Data University por IBM}{}{}{}
+%{Conocimientos básicos de Big Data, Hadoop y Spark.}
+%\cventry{2017}{Spark - Level 1}{Big Data University por IBM}{}{}{}
+\cventry{2016}{Big Data Foundations - Level 1}{Big Data University por IBM}{}{}{} 
+\cventry{2016}{Data Manipulation at Scale: Systems and Algorithms}{University of Washington (UW) en Coursera}{}{}{}
+%Cloud computing, bases de datos SQL y NoSQL, MapReduce, y algoritmos basados en gráficos (e.g. PageRank).}
+% and specialized systems for graphs and arrays.}
+\cventry{2013}{Advanced Discrete Event Simulation Methodology}{Norwegian University of Science and Technology (NTNU)}{}{}{}
+%Métodos de simulación (trace driven, Markovian), énfasis en Simulación por Eventos Discretos, técnicas de reducción de varianza, planificación y análisis estadístico de resultados.}
+\cventry{2012}{Optical Networking}{Norwegian University of Science and Technology (NTNU)}{}{}{}
+%Propiedades físicas, diseño de nodos, protocolos (MPLS, GMPLS, MPLS-TP), conmutación (paquetes, circuitos, híbrida, ráfaga), interacción con IP.}
+\cventry{2012}{Dependability Analysis of ICT Systems}{Norwegian University of Science and Technology (NTNU)}{}{}{}
+%Modelado, análisis y diseño de fiabilidad en sistemas TIC (hardware, software, redes), eventos (estadísticamente) raros.}
+%y manejo de espacios (de estados) largos y desestructurados.}
+\cventry{2012}{Dependable Systems}{Norwegian University of Science and Technology (NTNU)}{}{}{}
+
+\section{Publicaciones (selección)}
+\cvitem{}{La lista completa puede ser consultada en mi perfil de LinkedIn.}
+%\cvitem{}{Algunas de las publicaciones resultado de mi investigación. La lista completa puede ser consultada en mi perfil de LinkedIn (con enlaces a ORCID y Google Scholar).}
+\cvitem{Journal}{\'A. Fern\'andez and N. Stol, ``Economic, dissatisfaction and reputation risks of hardware and software failures in PONs'', IEEE/ACM Transactions on Networking, 2016.}
+%\cvitem{}{\'A. Fern\'andez and N. Stol, ``CAPEX and OPEX simulation study of cost-efficient protection mechanisms in passive optical networks'', Optical Switching and Networking, 2015.}
+\cvitem{Conference}{\'A. Fern\'andez and N. Stol, ``Managing software failures and capacity assignment to control interval availability in PONs'', 8th International Workshop on Resilient Networks Design and Modeling, Sweden, 2016.}
+
+%\cvitem{2016}{\'A. Fern\'andez and N. Stol, ``Economic, dissatisfaction and reputation risks of hardware and software failures in PONs'', IEEE/ACM Transactions on Networking Journal.}
+%\cvitem{2015}{\'A. Fern\'andez and N. Stol, ``CAPEX and OPEX simulation study of cost-efficient protection mechanisms in passive optical networks'', Optical Switching and Networking Journal.}
+
+%\section{Proyectos}
+%\cventry{2016}{The Lone Lynx}{Norwegian University of Science and Technology (NTNU)}{Internet of Things Lab}{}{Robot auto-adaptable basado en una Raspberry Pi: placa DiddyBorg con 6 motores, sensores de distancia (infrarrojo/ultrasónico), magnetómetro y acelerómetro. Software en Java.}
+%\cventry{2016}{The Lone Lynx}{Norwegian University of Science and Technology (NTNU)}{Internet of Things Lab}{}{Desarrollo de un robot auto-adaptable. El robot incluye una Raspberry Pi que controla una placa DiddyBorg y 6 motores, más un conjunto de 4 sensores: de distancia (uno infrarrojo y uno ultrasónico), un magnetómetro y un acelerómetro. Software basado en Java.}
+%\cvitem{The Lone Lynx}{Developing a self-adapting mobile robot, based on a Raspberry Pi: DiddyBorg board with 6 motors, infrared and ultrasonic distance sensors, accelerometer, and magnetometer. Software developed in Java.}
+
+%\section{Miscelánea}
+%\cvlistdoubleitem{Microsoft Office}{Disponibilidad internacional}
+%\cvlistdoubleitem{Carnet de conducir B (España)}{}
+
+%\section{Referencias}
+%\begin{cvcolumns}
+%  \cvcolumn[0.21]{}{Norvald Stol \\ \\ \\ Miguel Ángel \\ Jiménez}
+%  \cvcolumn{}{norvald.stol@item.ntnu.no \\ (+47) 735 92 133 \\ \\ miguel.js@gmail.com \\ %\href{https://www.linkedin.com/in/miguel-angel-jiménez-sampedro-41000b6}
+%  }
+%  \cvcolumn[0.48]{}{El profesor Stol fue mi supervisor de doctorado en la NTNU. \\ \\ Miguel Ángel Jimenez fue mi responsable directo durante mi etapa en StratioBD}
+%\end{cvcolumns}
+
+\end{document}
+
+%% end of file `template.tex'.
