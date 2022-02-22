@@ -233,6 +233,9 @@
 \collectionnew{phones}
 \newcommand*{\phone}[2][fixed]{\collectionadd[#1]{phones}{#2}}
 \newcommand*{\email}[1]{\def\@email{#1}}
+% defines one's linkedin (optional)
+% usage: \linkedin{<url>}
+\newcommand*{\linkedin}[1]{\def\@linkedin{#1}}
 % defines one's home page (optional)
 % usage: \homepage{<url>}
 \newcommand*{\homepage}[1]{\def\@homepage{#1}}

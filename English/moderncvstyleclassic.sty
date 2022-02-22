@@ -106,6 +106,7 @@
         \ifthenelse{\equal{\@addresscountry}{}}{}{\makenewline\@addresscountry}}%
       \phonesdetails% needed to be pre-rendered as loops and tabulars seem to conflict
       \ifthenelse{\isundefined{\@email}}{}{\makenewline\emailsymbol\emaillink{\@email}}%
+      \ifthenelse{\isundefined{\@linkedin}}{}{\makenewline\homepagesymbol\httplink{\@linkedin}}%
       \ifthenelse{\isundefined{\@homepage}}{}{\makenewline\homepagesymbol\httplink{\@homepage}}%
       \ifthenelse{\isundefined{\@extrainfo}}{}{\makenewline\@extrainfo}%
     \end{tabular}
