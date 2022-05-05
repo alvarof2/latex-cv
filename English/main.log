@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.2.21)  28 APR 2022 16:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.2.21)  5 MAY 2022 12:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -599,11 +599,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: DAB7C913C2A228F326A13903661670DA;631.
  ) 
 Here is how much of TeX's memory you used:
- 12294 strings out of 483140
- 188208 string characters out of 5965151
+ 12296 strings out of 483140
+ 188232 string characters out of 5965151
  480498 words of memory out of 5000000
  27073 multiletter control sequences out of 15000+600000
- 590201 words of font info for 80 fonts, out of 8000000 for 9000
+ 590302 words of font info for 81 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  43i,13n,49p,770b,331s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
@@ -612,10 +612,10 @@ hare/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/publi
 c/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmsso8.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/marvosym/marvosym.pfb>
-Output written on main.pdf (2 pages, 2303068 bytes).
+Output written on main.pdf (2 pages, 2302078 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
+ 106 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
  9 named destinations out of 1000 (max. 500000)
  21046 words of extra memory for PDF output out of 24883 (max. 10000000)
 
