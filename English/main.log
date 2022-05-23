@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.2.21)  5 MAY 2022 23:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.2.21)  23 MAY 2022 11:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -589,12 +589,12 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./meB&W.jpg>]
 No file main.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 230.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 231.
 [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 230.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 231.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 230.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 230.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 231.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 231.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: DAB7C913C2A228F326A13903661670DA;631.
  ) 
@@ -612,10 +612,10 @@ hare/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/publi
 c/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmsso8.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/marvosym/marvosym.pfb>
-Output written on main.pdf (2 pages, 2302228 bytes).
+Output written on main.pdf (2 pages, 2302665 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
- 96 compressed objects within 1 object stream
+ 117 PDF objects out of 1000 (max. 8388607)
+ 102 compressed objects within 2 object streams
  9 named destinations out of 1000 (max. 500000)
  21046 words of extra memory for PDF output out of 24883 (max. 10000000)
 
